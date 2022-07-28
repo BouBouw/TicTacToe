@@ -1,0 +1,46 @@
+.title {
+    margin-left: 45%;
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content {
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: rgba(185, 185, 185, 0.548);
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.next {
+    position: absolute;
+    margin-left: 47%;
+    bottom: 0;
+    padding-top: 50px;
+    height: 50px;
+}
+
+.social {
+    position: relative;
+    display: flex;
+    margin-left: 39%;
+    margin-top: 75px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 75px;
+}
+
+.username {
+    text-align: center;
+    margin-left: 48%;
+    text-decoration: underline;
+    font-weight: bold;
+}

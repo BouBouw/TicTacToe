@@ -1,0 +1,106 @@
+.options {
+    position: absolute;
+    margin-left: 47%;
+    bottom: 0;
+    padding-top: 50px;
+    height: 50px;
+}
+
+.select-items {
+  display: flex;
+  list-style: none;
+}
+
+.select-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select-item p {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  color: rgb(255, 139, 139);
+  text-decoration: underline;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn.active {
+  background-color: rgb(252, 186, 46);
+  border-radius: solid 5px rgb(252, 186, 46);
+  color: white;
+  border-radius: 10px;
+}
+  
+.gameStart {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.gameStart:hover {
+  border: solid 2px rgb(252, 186, 46);
+  background-color: rgb(252, 186, 46);
+  color: rgb(0, 0, 0);
+}
+
+#three {
+  display: block;
+}
+
+#five {
+  display: none;
+}
+
+#ten {
+  display: none;
+}
+
+.grid-3 {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 5rem);
+  grid-template-rows: repeat(3, 5rem);
+  gap: 1rem;
+  margin: 3rem auto;
+  margin-top: 15em;
+  height: 272px;
+  width: 272px;
+}
+
+.grid-5 {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 5rem);
+  grid-template-rows: repeat(5, 5rem);
+  gap: 1rem;
+  margin: 3rem auto;
+  margin-top: -20em;
+  height: 272px;
+  width: 272px;
+}
+
+.grid-10 {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(10, 5rem);
+  grid-template-rows: repeat(10, 5rem);
+  gap: 1rem;
+  margin: 3rem auto;
+  margin-top: -20em;
+  height: 272px;
+  width: 272px;
+}

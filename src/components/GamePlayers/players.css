@@ -1,0 +1,33 @@
+.players {
+    margin-top: 15px;
+    display: flex;
+}
+
+.player-1 {
+    border: solid 1px rgb(255, 255, 255);
+    color: rgb(98, 205, 255);
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  
+.player-2 {
+    margin-left: 15px;
+    border: solid 1px rgb(255, 255, 255);
+    color: rgb(250, 60, 60);
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.playerText {
+    font-weight: bold;
+}

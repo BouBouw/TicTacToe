@@ -1,0 +1,15 @@
+.bottom {
+    position: absolute;
+    margin-left: 46.5%;
+    bottom: 0;
+    padding-top: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+.timer {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
